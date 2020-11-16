@@ -26,3 +26,22 @@ input {
  color: white;
  background: black;
 }
+
+#again {
+  background: black;
+  border-radius: 50%;
+  color: white;
+  font-size: 30px;
+}
+
+.con {
+  display: flex;
+    width: 200px;
+    height: 120px;
+}
+
+/* resize images */
+.con img {
+    width: 100%;
+    height: auto;
+}

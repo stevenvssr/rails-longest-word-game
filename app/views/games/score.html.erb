@@ -2,10 +2,14 @@
 
 <h3 id="result">Result</h3>
 
-<p> <strong>Your word:</strong>:<%= @result_answer %></p>
+<p> <strong>Your word:</strong><%= @result_answer %></p>
 
 <p> <strong>Time</strong>: <%= @results[:time]  %></p>
 <p> <strong>Score :</strong> <%= @results[:score]  %></p>
 <h2> <%= @results[:message].capitalize  %> 🎉</h2>
 
-<%= link_to "Play again!", "http://localhost:3000/new" %>
+<div id="again"><%= link_to "Play again!", "http://localhost:3000/new" %></div>
+
+<div class="con">
+<img src="https://media1.tenor.com/images/9750f39fe5f96acfce1bdf187ff0cac1/tenor.gif?itemid=5477721" alt="">
+</div>
