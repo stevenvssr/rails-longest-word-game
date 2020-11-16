@@ -1,0 +1,11 @@
+<h1>The Longest Word</h1>
+
+<h3 id="result">Result</h3>
+
+<p> <strong>Your word:</strong>:<%= @result_answer %></p>
+
+<p> <strong>Time</strong>: <%= @results[:time]  %></p>
+<p> <strong>Score :</strong> <%= @results[:score]  %></p>
+<h2> <%= @results[:message].capitalize  %> 🎉</h2>
+
+<%= link_to "Play again!", "http://localhost:3000/new" %>
